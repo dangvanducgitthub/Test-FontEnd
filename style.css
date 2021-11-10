@@ -1,0 +1,143 @@
+:root{
+    --bule:#17a2b8 ;
+}
+*{
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;padding: 0;
+    list-style: none;
+    
+}
+header{
+    padding: 20px;
+    height: 250px;
+    text-align: center;
+}
+.header_demo{
+
+}
+.icons{
+    display: flex;
+    color: #fff;
+}
+.icon{
+    margin: 3px;
+    background-color: var(--bule);
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    border-radius: 15px;
+}
+.home{
+    height: 450px;
+}
+.home>.nav{
+   
+    background-color: var(--bule);
+}
+.home>.nav a{
+    color: #fff;
+}
+.home>.nav li:hover{
+    background-color: rgb(5, 106, 119);
+}
+.img_home{
+    height: 420px;
+    background-image: url(/image/aleks.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+main{
+    margin-top: 100px;
+    height: 1100px;
+    
+}
+.main_text{
+    margin: auto;
+    height: 250px;
+    width: 500px;
+}
+.main_text .button{
+    text-align: center;
+}
+.main_text button{
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--bule); 
+    color: #fff;
+}
+
+
+.card-group{
+    margin: auto;
+    width: 1000px;
+}
+.card-group .card{
+    margin: 40px;
+}
+.card-group .card h4{
+    text-align: center;
+}
+
+.main_reviews{
+    padding-top: 100px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+}
+.main_reviesw{
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+.main_reviesw  img{
+    width: 70px;
+    height: 80px;
+    margin-bottom: 15px;
+    
+}
+.main_reviesw p{
+    color: rgb(189, 185, 178);
+}
+footer{
+    color: #000;
+    padding-top: 15px;
+}
+#footer_left{
+    width: 350px;
+}
+#footer_left> img{
+    width: 150px;
+    margin: 10px;
+}
+
+#footer_center{
+    width: 400px;
+    
+    text-align: left;
+}
+#footer_center>h5{
+    text-align: center;
+}
+
+#footer_right{
+    width: 250px;
+   
+}
+
+#footer_right li{
+    display: flex;
+    float: left;
+    
+}
+#footer_right li h6{
+    margin-right: 40px;
+    font-size: 20px;
+    color: #000;
+}
+.time{
+    color: rgb(24, 23, 23);
+}
